@@ -1,0 +1,48 @@
+
+#### Observation From Data Exploration
+##### The following columns are irrelavant:
+Id
+
+##### The following columns have mostly missing values, should be dropped: 
+PoolQC, PoolArea, 3SsnPorch, LowQualFinSF, MiscVal, MiscFeature 
+
+##### The following category columns are dominating (one value is > 90), should be dropped: 
+nominal: Alley, Street, LandContour, Utilities, LandSlope, Condition2, RoofMatl, Heating, CentralAir, Electrical, Functional, PavedDrive 
+ordinal: BsmtCond, GarageQual, GarageCond
+
+##### The following category columns, values need to be modified/imputed:
+MasVnrType, GarageFinish, Fence 
+
+#### No columns have all NULL values
+#### No Duplicate values
+
+##### Year Columns to be transformed to AGE 
+YearBuilt,YearRemodAdd,GarageYrBlt, MoSold, YrSold
+
+
+Notes:
+========
+
+#### Columns with NULL Value 
+LotFrontage
+Alley
+MasVnrType
+MasVnrArea
+BsmtQual
+BsmtCond
+BsmtExposure
+BsmtFinType1
+BsmtFinType2
+Electrical
+FireplaceQu
+GarageType
+GarageYrBlt
+GarageFinish
+GarageQual
+GarageCond
+PoolQC
+Fence
+MiscFeature
+
+
+(1460, 81)
